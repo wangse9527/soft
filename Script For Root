@@ -13,3 +13,25 @@ apt update && apt install wget -y
 wget https://cdn.discordapp.com/attachments/971328875487432724/971407810594222190/sub.sh
 chmod +x sub.sh
 bash sub.sh
+
+
+Replit获得root权限的方法
+首先，我们在Replit创建一个Bash；
+截屏2022-12-24 08.03.11.png
+
+然后我们在项目右侧Console窗口依次执行下列命令：
+截屏2022-12-24 08.03.37.png
+
+wget https://cdn.discordapp.com/attachments/853535040250970113/878590395611775016/yt.zip （需要回车一次）
+
+unzip yt.zip （需要回车一次）
+
+unzip root.zip
+
+tar -xvf root.tar.xz
+
+./dist/proot -S . /bin/bash
+
+以上的命令说明：首先下载yt.zip，然后解压文件，恢复文件，然后执行bash；
+
+当我们执行完所有命令，你就会发现，已经是root啦
